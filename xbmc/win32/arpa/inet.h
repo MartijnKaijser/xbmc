@@ -18,5 +18,6 @@
  *
  */
 #pragma once
-#include <sys/socket.h>
+
+// this file is intentionally empty - only for resolving #include <arpa/inet.h>
 
