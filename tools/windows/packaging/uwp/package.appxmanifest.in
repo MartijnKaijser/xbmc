@@ -5,13 +5,14 @@
 	xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" 
 	IgnorableNamespaces="uap mp">
 
-  <Identity Name="@PACKAGE_GUID@" Publisher="CN=C62BD90A-CDD8-477F-96C3-B25992247B97" Version="17.9.501.0" />
-  <mp:PhoneIdentity PhoneProductId="@PACKAGE_GUID@" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="XBMCFoundation.Kodi" ProcessorArchitecture="@TARGET_ARCHITECTURE@" Publisher="CN=C62BD90A-CDD8-477F-96C3-B25992247B97" Version="@VERSION_NUMBER@" />
+  <mp:PhoneIdentity PhoneProductId="XBMCFoundation.Kodi" PhonePublisherId="CN=C62BD90A-CDD8-477F-96C3-B25992247B97" />
 
   <Properties>
-    <DisplayName>@APP_NAME@</DisplayName>
-    <PublisherDisplayName>@COMPANY_NAME@</PublisherDisplayName>
-    <Logo>media\icon50x50.png</Logo>
+    <DisplayName>Kodi</DisplayName>
+    <PublisherDisplayName>XBMC Foundation</PublisherDisplayName>
+    <Description>Kodi is an open source (GPL) software media center for playing videos, music, pictures, games, and more.</Description>
+    <Logo>media\icon256x256.png</Logo>
   </Properties>
 
   <Dependencies>
@@ -26,12 +27,12 @@
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="@APP_NAME_LC@.App">
       <uap:VisualElements 
 		DisplayName="@APP_NAME@ @APP_VERSION@" 
-		Description="@APP_NAME@"
+		Description="Kodi is an open source (GPL) software media center for playing videos, music, pictures, games, and more."
 		Square150x150Logo="media\icon150x150.png" 
 		Square44x44Logo="media\icon44x44.png" 
 		BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="media\banner310x150.png" />
-        <uap:SplashScreen Image="media\SplashScreen.png" BackgroundColor="black" />
+        <uap:SplashScreen Image="media\Splash.png" BackgroundColor="black" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="landscape" />
           <uap:Rotation Preference="landscapeFlipped" />
@@ -176,6 +177,5 @@
     <uap:Capability Name="removableStorage" />
     <uap:Capability Name="userAccountInformation" />
     <uap:Capability Name="videosLibrary" />
-    <uap:Capability Name="documentsLibrary" />
   </Capabilities>
 </Package>
