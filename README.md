@@ -24,11 +24,16 @@
   <a href="#how-to-contribute"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square"></a>
   <a href="http://jenkins.kodi.tv/"><img alt="Build" src="https://img.shields.io/badge/CI-jenkins-brightgreen.svg?style=flat-square"></a>
   <a href="https://github.com/xbmc/xbmc/commits/master"><img alt="Commits" src="https://img.shields.io/github/commits-since/xbmc/xbmc/latest.svg?style=flat-square"></a>
-</p>
-<a href="https://kodi.tv/download/849" target="_blank">
+  <p align="center">
+
+## Install Kodi for Windows just click the icon 
+  <a href="https://kodi.tv/download/849" target="_blank">
   <img src="https://kodi.tv/sites/default/files/distribution/logo/windows_0.svg" height="80" with="80>
 </a>
 
+</p>
+                                                                                                   
+                                                                                                   
 [![Build Status](https://travis-ci.org/xbmc/xbmc.svg?branch=master)](https://travis-ci.org/xbmc/xbmc)
 [![Documentation](https://codedocs.xyz/xbmc/xbmc.svg)](https://codedocs.xyz/xbmc/xbmc/)
 
