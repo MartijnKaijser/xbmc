@@ -1,8 +1,9 @@
+<p align="center">
+![Kodi Logo](docs/resources/banner.png)
+
 [![Build Status](https://travis-ci.org/xbmc/xbmc.svg?branch=master)](https://travis-ci.org/xbmc/xbmc)
 
 [![Documentation](https://codedocs.xyz/xbmc/xbmc.svg)](https://codedocs.xyz/xbmc/xbmc/)
-
-![Kodi Logo](docs/resources/banner.png)
 
 # Kodi Home Theater Software
 
@@ -55,3 +56,4 @@ See [docs/README.xxx](https://github.com/xbmc/xbmc/tree/master/docs) for specifi
 * [Kodi website](http://kodi.tv)
 
 **Enjoy Kodi and help us improve it today. :)**
+</p>
