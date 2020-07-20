@@ -1,6 +1,30 @@
-<p align="center">
 ![Kodi Logo](docs/resources/banner.png)
 
+<p align="center">
+  <strong>
+    <a href="https://kodi.tv/">website</a>
+    •
+    <a href="https://kodi.wiki/view/Main_Page">docs</a>
+    •
+    <a href="https://forum.kodi.tv/">community</a>
+    •
+    <a href="https://kodi.tv/addons">add-ons</a>
+  </strong>
+</p>
+
+<p align="center">
+  <a href="LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square"></a>
+  <a href="http://hits.dwyl.io/xbmc/xbmc"><img alt="HitCount" src="http://hits.dwyl.io/xbmc/xbmc.svg"></a>
+  <a href="https://codedocs.xyz/xbmc/xbmc/"><img alt="Documentation" src="https://img.shields.io/badge/code-documented-brightgreen.svg?style=flat-square"></a>
+  <a href="https://github.com/xbmc/xbmc/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
+  <a href="#how-to-contribute"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square"></a>
+  <a href="http://jenkins.kodi.tv/"><img alt="Build" src="https://img.shields.io/badge/CI-jenkins-brightgreen.svg?style=flat-square"></a>
+  <a href="https://github.com/xbmc/xbmc/commits/master"><img alt="Commits" src="https://img.shields.io/github/commits-since/xbmc/xbmc/latest.svg?style=flat-square"></a>
+</p>
+
+<h1 align="center">
+  Welcome to Kodi Home Theater Software!
+</h1>
 [![Build Status](https://travis-ci.org/xbmc/xbmc.svg?branch=master)](https://travis-ci.org/xbmc/xbmc)
 
 [![Documentation](https://codedocs.xyz/xbmc/xbmc.svg)](https://codedocs.xyz/xbmc/xbmc/)
